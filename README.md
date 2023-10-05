@@ -30,10 +30,10 @@ uncomment these lines when ready to process the row data
   #  print(row["index"])
 ```
 TESTING your postgresql connection
+> if this works, you will have a table and a row of data inside postgres. you should be able to see it in datagrip
 ```
 .\2_init_test_pgsql.ps1
 ```
-> if this works, you will have a table and a row of data inside postgres. you should be able to see it in datagrip
 To RUN your process with a custom taxi file
 ```
 python app.py process --file yellow_tripdata_2018-04.parquet
